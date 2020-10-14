@@ -1,0 +1,37 @@
+.login_wrap{
+    padding: 20px 20px 0;
+    box-sizing: border-box;
+    // background: #2ecc71;
+    // min-height: 100vh;
+    .login_logo{
+        width: 100rpx;
+        height: 100rpx;
+        border-radius: 50%;
+        margin: 200rpx auto 40rpx;
+    }
+    .rember{
+        display: flex;
+        padding-top: 10px;
+        .u-checkbox__label{
+            font-size: 14px;
+        }
+    }
+    .remerber_pwd{
+        padding-top: 10px;
+        label{
+            display: flex;
+            align-items: center;
+            checkbox{
+                padding: 0;
+            }
+        }
+    }
+    .foot{
+        padding-top: 40px;
+        .login_btn{
+            color: #fff;
+            height: 50px;
+            background-color: #2ecc71;
+        }
+    }
+}
